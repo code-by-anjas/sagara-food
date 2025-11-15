@@ -22,30 +22,9 @@ export const metadata: Metadata = {
   title: "Sagara Food Menus",
   description: "Makanan Nikmat dengan senyuman penuh semangat!",
 
+  // ⭐ WHATSAPP OG IMAGE (PALING PENTING)
   openGraph: {
-    title: "Sagara Food Menus",
-    description:
-      "Lihat daftar menu lengkap SAGARA FOOD — enak, murah, pedas, bikin nagih!",
-    url: "https://sagara-food.vercel.app",
-    siteName: "Sagara Food",
-    images: [
-      {
-        url: "/og_sagara_food.png",
-        width: 1200,
-        height: 630,
-        alt: "Sagara Food Menu Preview",
-      },
-    ],
-    locale: "id_ID",
-    type: "website",
-  },
-
-  // ⭐ Twitter Card (kadang ikut membantu WA)
-  twitter: {
-    card: "summary_large_image",
-    title: "Sagara Food Menus",
-    description: "Menu makanan enak, pedas, murah meriah!",
-    images: ["/og-sagara.jpg"],
+    images: ["https://sagara-food.vercel.app/og-sagara.jpg"],
   },
 };
 
