@@ -43,7 +43,7 @@ export default function Menu() {
           alt='Sagara 1'
           width={540}
           height={720}
-          className='absolute bottom-0 left-1/2 -translate-x-1/2'
+          className='absolute bottom-0 left-1/2 -translate-x-1/2 w-[260px] max-w-[70%] h-auto'
         />
       </div>
     </div>
